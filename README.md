@@ -16,9 +16,9 @@
 *Support platforms*
 | OS  | Support |
 | ------------- | ------------- |
-| Android | [x]  |
-| Window  | [x]  |
-| IOS  | []  |
-| Mac  | [x]  |
-| HTML5  | [x]  |
+| Android | - [x]  |
+| ios  | []  |
+| Window  | - [x]  |
+| Mac  | - [x]  |
+| HTML5  | - [x]  |
 
