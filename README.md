@@ -1,17 +1,24 @@
 # Shader Effect Of Solar2D
 ### The repository that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
 ***Note:***
-Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use them on these platforms and they work well then please let me know. <br>
+Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use my shader on these platforms and it works fine then please let me know. <br>
 Thanks you very much!
 
 <br>
-&#x2611; : Supported <br>
-&#x2610; : Not test yet <br>
-&#x2612; : Unsupported<br>
+
+**- Symbol summary:**
+<br>
+| Symbol    | Describe     |
+|-----------|--------------|
+|&#x2611;   | Supported    |
+|&#x2610;   | Not test yet |
+|&#x2612;   | Unsupported  |
 
 ## Sway Shader
-![Sway](https://i.imgur.com/b8xv2Ps.gif)
 
+![Sway](https://i.imgur.com/b8xv2Ps.gif)
+<br>
+*- Lua code:*
 ```Lua
    require "sway"
    object.fill.effect = "filter.custom.sway"
@@ -19,7 +26,7 @@ Thanks you very much!
    object.fill.effect.heightOffset = 0.6 -- The height where the wind begins to move
    object.fill.effect.distortion = 0.5 -- The strength of geometry distortion.
 ```
-*Support platforms*
+*- Support platforms:*
 
 | OS              |Supported|
 | -------------   | ------|
