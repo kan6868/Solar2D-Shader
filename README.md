@@ -14,20 +14,15 @@
    object.fill.effect.distortion = 0.5 -- The strength of geometry distortion.
 ```
 *Support platforms*
-| OS  | Support |
-| ------------- | ------------- |
-| Android | - [x] 1  |
-| ios  | []  |
-| Window  | - [x]  |
-| Mac  | - [x]  |
-| HTML5  | - [x]  |
+| OS              | Support         |
+| -------------   | -------------   |
+| Android         | - [x]           |
+| ios             |                 |
+| Window          | - [x]           |
+| Mac             | - [x]           |
+| HTML5           | - [x]           |
 
-| Task           | Time required | Assigned to   | Current Status | Finished | 
-|----------------|---------------|---------------|----------------|-----------|
-| Calendar Cache | > 5 hours  |  | in progress | - [x] ok?
-| Object Cache   | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2
-| Object Cache   | > 5 hours  |  | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
-| Object Cache   | > 5 hours  |  | in progress | <ul><li>[x] item1</li><li>[ ] item2</li></ul>
+
 
 
 - [x] works
