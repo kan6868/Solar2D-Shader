@@ -16,9 +16,9 @@
 *Support platforms*
 | OS              | Support         |
 | -------------   | -------------   |
-| Android         | &check;         |
+| Android         | <ul><li>- [x] </li></ul>|
 | ios             |                 |
-| Window          | &check;         |
+| Window          | <ul><li>- [x] </li></ul>|
 | Mac             |                 |
-| HTML5           |&check;          |
+| HTML5           |<ul><li>- [x] </li></ul>|
 
