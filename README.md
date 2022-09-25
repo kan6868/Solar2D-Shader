@@ -13,5 +13,12 @@
    object.fill.effect.heightOffset = 0.6 -- The height where the wind begins to move
    object.fill.effect.distortion = 0.5 -- The strength of geometry distortion.
 ```
-
+*Support platforms*
+| OS  | Support |
+| ------------- | ------------- |
+| Android | [x]  |
+| Window  | [x]  |
+| IOS  | []  |
+| Mac  | [x]  |
+| HTML5  | [x]  |
 
