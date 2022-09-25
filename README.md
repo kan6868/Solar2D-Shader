@@ -5,10 +5,14 @@ Because I don't use ios, macOS, and Nintendo switch devices, I can't test shader
 Thanks you very much!
 
 <br>
-*- Symbol summary:*
-&#x2611; : Supported <br>
-&#x2610; : Not test yet <br>
-&#x2612; : Unsupported<br>
+
+**- Symbol summary:**
+<br>
+| Symbol    | Describe     |
+|-----------|--------------|
+|&#x2611;   | Supported    |
+|&#x2610;   | Not test yet |
+|&#x2612;   | Unsupported  |
 
 ## Sway Shader
 
