@@ -5,13 +5,15 @@ Because I don't use ios, macOS, and Nintendo switch devices, I can't test shader
 Thanks you very much!
 
 <br>
+*- Symbol summary:*
 &#x2611; : Supported <br>
 &#x2610; : Not test yet <br>
 &#x2612; : Unsupported<br>
 
 ## Sway Shader
-![Sway](https://i.imgur.com/b8xv2Ps.gif)
 
+![Sway](https://i.imgur.com/b8xv2Ps.gif)
+*- Code:*
 ```Lua
    require "sway"
    object.fill.effect = "filter.custom.sway"
@@ -19,7 +21,7 @@ Thanks you very much!
    object.fill.effect.heightOffset = 0.6 -- The height where the wind begins to move
    object.fill.effect.distortion = 0.5 -- The strength of geometry distortion.
 ```
-*Support platforms*
+*- Support platforms:*
 
 | OS              |Supported|
 | -------------   | ------|
