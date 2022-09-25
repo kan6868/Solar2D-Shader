@@ -3,6 +3,9 @@
 <br>
 
 ## Sway Shader
+
+![Screenshot](https://imgur.com/gc6AeEq)
+
 ```Lua
    require "sway"
    object.fill.effect = "filter.custom.sway"
