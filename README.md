@@ -13,7 +13,8 @@ Thanks you very much!
 ## Sway Shader
 
 ![Sway](https://i.imgur.com/b8xv2Ps.gif)
-*- Code:*
+<br>
+*- Lua code:*
 ```Lua
    require "sway"
    object.fill.effect = "filter.custom.sway"
