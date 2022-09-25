@@ -1,10 +1,8 @@
 # Shader Effect Of Solar2D
 ### This is a project that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
-<br>
 
 ## Sway Shader
-
-[![Screenshot](https://imgur.com/gc6AeEq)](https://imgur.com/gc6AeEq)
+!(https://imgur.com/gc6AeEq)](https://imgur.com/gc6AeEq)
 
 ```Lua
    require "sway"
