@@ -2,7 +2,8 @@
 ### This is a project that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
 
 ## Sway Shader
-![Sway](https://i.imgur.com/gc6AeEq.gif)
+![Sway](https://i.imgur.com/gc6AeEqs.gif)
+
 
 ```Lua
    require "sway"
