@@ -3,6 +3,8 @@
         require "sway"
         object.fill.effect = "filter.custom.sway"
         object.fill.effect.offset = 0.0 -- make different
+        object.fill.effect.heightOffset = 0.6 -- The height where the wind begins to move
+        object.fill.effect.distortion = 0.5 -- The strength of geometry distortion.
 ]]
 
 local kernel = {}
@@ -22,6 +24,20 @@ kernel.vertexData =
         max = 10.0,
         index = 0,  -- This corresponds to "CoronaVertexUserData.x"
     },
+    {
+        name = "heightOffset",
+        default = 0.5,
+        min = 0.0,
+        max = 1.0,
+        index = 1 -- This corresponds to "CoronaVertexUserData.y"
+    },
+    {
+        name = "distortion",
+        default = 0.5,
+        min = 0.0,
+        max = 1.0,
+        index = 2 -- This corresponds to "CoronaVertexUserData.z"
+    }
 }
 
 kernel.vertex =
@@ -39,9 +55,9 @@ kernel.vertex =
     
     P_COLOR float detail = 1.0;//The detail (number of waves) of the wind movement.
     
-    P_COLOR float distortion = 0.6;//The strength of geometry distortion.
+    P_COLOR float distortion = CoronaVertexUserData.z;//The strength of geometry distortion.
     
-    P_COLOR float heightOffset = 0.6;//The height where the wind begins to move. By default 0.0.
+    P_COLOR float heightOffset = CoronaVertexUserData.y;//The height where the wind begins to move. By default 0.0.
 
 
     P_COLOR float getWind(P_COLOR vec2 vertex, P_COLOR vec2 uv, P_COLOR float time){
