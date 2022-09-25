@@ -16,7 +16,7 @@
 *Support platforms*
 | OS  | Support |
 | ------------- | ------------- |
-| Android | - [x]  |
+| Android | - [x] 1  |
 | ios  | []  |
 | Window  | - [x]  |
 | Mac  | - [x]  |
