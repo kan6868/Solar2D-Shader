@@ -1,6 +1,6 @@
 --[[
   *
-        require "swat"
+        require "sway"
         object.fill.effect = "filter.custom.sway"
         object.fill.effect.offset = 0.0 -- make different
 ]]
