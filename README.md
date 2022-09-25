@@ -1,13 +1,13 @@
 # Shader Effect Of Solar2D
 ### The repository that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
-***Note***
-*Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use them on these platforms and they work well then please let me know.
-Thanks you very much!*
+***Note:***
+Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use them on these platforms and they work well then please let me know. <br>
+Thanks you very much!
 
 <br>
-* &#x2611; : Supported
-* &#x2610; : Not test yet 
-* &#x2612; : Unsupported
+&#x2611; : Supported <br>
+&#x2610; : Not test yet <br>
+&#x2612; : Unsupported<br>
 
 ## Sway Shader
 ![Sway](https://i.imgur.com/b8xv2Ps.gif)
@@ -22,11 +22,12 @@ Thanks you very much!*
 ```
 *Support platforms*
 
-| OS              | Support       |
-| -------------   | --------------|
-| Android         |&check;|
-| ios             |Not tested yet|
-| Window          |&check;|
-| Mac             |Not tested yet|
-| HTML5           |&check;|
+| OS              |Support|
+| -------------   | ------|
+| Android         |&#x2611|
+| ios             |&#x2610|
+| Window          |&#x2611|
+| Mac             |&#x2610|
+| HTML5           |&#x2611|
+| Nintendo Switch |&#x2610|
 
