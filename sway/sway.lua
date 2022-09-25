@@ -55,9 +55,6 @@ kernel.vertex =
     
     P_COLOR float detail = 1.0;//The detail (number of waves) of the wind movement.
     
-    P_COLOR float distortion = CoronaVertexUserData.z;//The strength of geometry distortion.
-    
-    P_COLOR float heightOffset = CoronaVertexUserData.y;//The height where the wind begins to move. By default 0.0.
 
 
     P_COLOR float getWind(P_COLOR vec2 vertex, P_COLOR vec2 uv, P_COLOR float time){
@@ -70,7 +67,11 @@ kernel.vertex =
 
     P_POSITION vec2 VertexKernel( P_POSITION vec2 position )
     {
-        float time = CoronaTotalTime * speed + CoronaVertexUserData.x;
+        P_COLOR float distortion = CoronaVertexUserData.z;//The strength of geometry distortion.
+    
+        P_COLOR float heightOffset = CoronaVertexUserData.y;//The height where the wind begins to move. By default 0.0.
+    
+        P_COLOR float time = CoronaTotalTime * speed + CoronaVertexUserData.x;
         position.x += getWind(position.xy, CoronaTexCoord, time);
 
         return position;
