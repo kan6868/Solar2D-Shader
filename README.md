@@ -1,7 +1,7 @@
 # Shader Effect Of Solar2D
 ### The repository that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
 ***Note:***
-Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use them on these platforms and they work well then please let me know. <br>
+Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use my shader on these platforms and it works fine then please let me know. <br>
 Thanks you very much!
 
 <br>
