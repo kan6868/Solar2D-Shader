@@ -1,5 +1,6 @@
 # Shader Effect Of Solar2D
-### This is a project that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
+### The repository that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
+
 
 ## Sway Shader
 ![Sway](https://i.imgur.com/b8xv2Ps.gif)
