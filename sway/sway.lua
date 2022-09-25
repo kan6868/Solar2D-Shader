@@ -57,7 +57,7 @@ kernel.vertex =
     
 
 
-    P_COLOR float getWind(P_COLOR vec2 vertex, P_COLOR vec2 uv, P_COLOR float time){
+    P_COLOR float getWind(P_COLOR vec2 vertex, P_COLOR vec2 uv, P_COLOR float time, P_COLOR float heightOffset, P_COLOR float distortion){
         P_COLOR float diff = pow(maxStrength - minStrength, 2.0);
         P_COLOR float strength = clamp(minStrength + diff + sin(time / interval) * diff, minStrength, maxStrength) * strengthScale;
         P_COLOR float wind = (sin(time) + cos(time * detail)) * strength * max(0.0, (1.0-uv.y) - heightOffset);
@@ -72,7 +72,7 @@ kernel.vertex =
         P_COLOR float heightOffset = CoronaVertexUserData.y;//The height where the wind begins to move. By default 0.0.
     
         P_COLOR float time = CoronaTotalTime * speed + CoronaVertexUserData.x;
-        position.x += getWind(position.xy, CoronaTexCoord, time);
+        position.x += getWind(position.xy, CoronaTexCoord, time, heightOffset, distortion);
 
         return position;
     }
