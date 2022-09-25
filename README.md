@@ -14,6 +14,7 @@
    object.fill.effect.distortion = 0.5 -- The strength of geometry distortion.
 ```
 *Support platforms*
+<p align="center">
 | OS              | Support                        |
 | -------------   | --------------------------     |
 | Android         |<center><li>- [x] </li></center>|
@@ -22,3 +23,4 @@
 | Mac             |                                |
 | HTML5           |<center><li>- [x] </li></center>|
 
+</p>
