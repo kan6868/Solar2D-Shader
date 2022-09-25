@@ -4,7 +4,7 @@
 
 ## Sway Shader
 
-![Screenshot](https://imgur.com/gc6AeEq)
+[![Screenshot](https://imgur.com/gc6AeEq)](https://imgur.com/gc6AeEq)
 
 ```Lua
    require "sway"
