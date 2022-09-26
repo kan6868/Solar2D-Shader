@@ -1,7 +1,7 @@
 # Shader Effect Of Solar2D
 ### The repository that synthesizes [Solar2D](https://solar2d.com) shaders made or collected by Kan.
 ***Note:***
-Because I don't use ios, macOS, and Nintendo switch devices, I can't test shaders on these platforms. If you use my shader on these platforms and it works fine then please let me know. <br>
+Because I don't use Ios, macOS, Linux and Nintendo switch devices, I can't test shaders on these platforms. If you use my shader on these platforms and it works fine then please let me know. <br>
 Thanks you very much!
 
 <br>
@@ -28,12 +28,57 @@ Thanks you very much!
 ```
 *- Support platforms:*
 
-| OS              |Supported|
-| -------------   | ------|
+| OS/Platform     |Supported|
+| -------------   | ------ |
 | Android         |&#x2611;|
-| ios             |&#x2610;|
+| Ios             |&#x2610;|
 | Window          |&#x2611;|
 | Mac             |&#x2610;|
+| Linux           |&#x2610;|
 | HTML5           |&#x2611;|
 | Nintendo Switch |&#x2610;|
 
+
+## Burn Shader
+
+![Burn](https://i.imgur.com/Z0NW4tN.gif)
+<br>
+
+- For mobile devices need to add 1 texture noise.
+
+*- Lua code:*
+```Lua
+   --Mobile version
+   object.fill = {
+      type = "composite",
+      paint1 = { type = "image", filename = "image.png" },
+      paint2 = { type = "image", filename = "noise.jpg" }
+   }
+
+   require "burn_mobile"
+
+   object.fill.effect = "filter.custom.burn"
+   object.fill.effect.startTime = system.getTimer() / 1000
+   object.fill.effect.duration = 2.0
+```
+
+<br>
+
+```Lua
+   --Other version (not need noise texture)
+   require "burn"
+   object.fill.effect = "filter.custom.burn"
+   object.fill.effect.startTime = system.getTimer()/1000
+   object.fill.effect.duration = 2.0
+```
+*- Support platforms:*
+
+| OS/Platform     |Supported|
+| -------------   | ------ |
+| Android         |&#x2611;|
+| Ios             |&#x2610;|
+| Window          |&#x2611;|
+| Mac             |&#x2610;|
+| Linux           |&#x2610;|
+| HTML5           |&#x2612;|
+| Nintendo Switch |&#x2610;|
