@@ -13,17 +13,14 @@ Thanks you very much!
 |&#x2611;   | Supported    |
 |&#x2610;   | Not test yet |
 |&#x2612;   | Unsupported  |
-<br>
 
 **- List of shaders:**
 <br>
-
-- Sway Shader
-- Burn Shader
-
+- [Sway](#sway-shader)
+- [Burn](#burn-shader)
 <br>
 
-## 1.Sway Shader
+## Sway Shader
 
 ![Sway](https://i.imgur.com/b8xv2Ps.gif)
 <br>
@@ -48,7 +45,7 @@ Thanks you very much!
 | Nintendo Switch |&#x2610;|
 
 
-## 2.Burn Shader
+## Burn Shader
 
 ![Burn](https://i.imgur.com/Z0NW4tN.gif)
 <br>
