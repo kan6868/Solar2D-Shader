@@ -7,11 +7,6 @@ pirate.x, pirate.y = display.contentCenterX, display.contentCenterY
 local platform = system.getInfo("platform")
 local env = system.getInfo("environment")
 
-if env == "browser" then
-    native.showAlert("ERROR", "Unsupported browser!")
-    return
-end
-
 if (platform == "android" or platform == "ios") and env == "device" then
     require "burn_mobile"
 

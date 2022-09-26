@@ -6,6 +6,12 @@
         object.fill.effect.duration = 2
 ]]
 
+if system.getInfo("environment") == "browser" then
+  native.showAlert("ERROR", "Unsupported browser!")
+  return
+end
+
+
 local kernel = {}
 
 kernel.language = "glsl"
