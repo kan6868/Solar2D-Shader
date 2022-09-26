@@ -90,4 +90,6 @@ Thanks you very much!
 | Nintendo Switch |&#x2610;|
 
 ## Sponsor this project
-[Support me](https://www.patreon.com/kandev)
+- Support me via [Patreon](https://www.patreon.com/kandev).
+- Gift me a [coffee cup](Ko-fi.com/kandev).
+
