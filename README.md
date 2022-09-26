@@ -88,3 +88,6 @@ Thanks you very much!
 | Linux           |&#x2610;|
 | HTML5           |&#x2612;|
 | Nintendo Switch |&#x2610;|
+
+## Sponsor this project
+[Support me](https://www.patreon.com/kandev)
