@@ -48,11 +48,11 @@ kernel.fragment =
   
     P_COLOR float OCTAVES = 6.0;
 
-    P_COLOR float rand(P_COLOR vec2 coord){
+    P_COLOR float rand(P_DEFAULT vec2 coord){
         return fract(sin(dot(coord, vec2(12.9898, 78.233)))* 43758.5453123);
     }
       
-    P_COLOR float noise(P_COLOR vec2 coord){
+    P_COLOR float noise(P_DEFAULT vec2 coord){
         P_COLOR vec2 i = floor(coord);
         P_COLOR vec2 f = fract(coord);
         P_COLOR float a = rand(i);
@@ -65,7 +65,7 @@ kernel.fragment =
         return mix(a, b, cubic.x) + (c - a) * cubic.y * (1.0 - cubic.x) + (d - b) * cubic.x * cubic.y;
     }
       
-    P_COLOR float fbm(P_COLOR vec2 coord){
+    P_COLOR float fbm(P_DEFAULT vec2 coord){
         P_COLOR float value = 0.0;
         P_COLOR float scale = 0.5;
       
