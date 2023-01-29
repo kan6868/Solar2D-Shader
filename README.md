@@ -89,6 +89,29 @@ Thanks you very much!
 | HTML5           |&#x2612;|
 | Nintendo Switch |&#x2610;|
 
+## CRT Shader
+
+![CRT](https://user-images.githubusercontent.com/70838508/215328561-4a572e65-1dda-4ef8-93d1-5ef60200ee92.gif)
+
+
+<br>
+
+```Lua
+        require "crt"
+        object.fill.effect = "filter.custom.crt"
+```
+*- Support platforms:*
+
+| OS/Platform     |Supported|
+| -------------   | ------ |
+| Android         |&#x2611;|
+| Ios             |&#x2610;|
+| Window          |&#x2611;|
+| Mac             |&#x2610;|
+| Linux           |&#x2610;|
+| HTML5           |&#x2612;|
+| Nintendo Switch |&#x2610;|
+
 ## Sponsor this project
 - Support me via [Patreon](https://www.patreon.com/kandev).
 - Gift me a [coffee cup](Ko-fi.com/kandev).
