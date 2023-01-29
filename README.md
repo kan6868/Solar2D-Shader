@@ -91,8 +91,7 @@ Thanks you very much!
 
 ## CRT Shader
 
-![CRT](https://user-images.githubusercontent.com/70838508/215328561-4a572e65-1dda-4ef8-93d1-5ef60200ee92.gif)
-
+![CRT](https://user-images.githubusercontent.com/70838508/215328995-63515cca-4582-4ebf-8b31-c1d14330e63b.gif)
 
 <br>
 
@@ -111,6 +110,8 @@ Thanks you very much!
 | Linux           |&#x2610;|
 | HTML5           |&#x2612;|
 | Nintendo Switch |&#x2610;|
+
+Ref: https://godotshaders.com/shader/vhs-and-crt-monitor-effect/;
 
 ## Sponsor this project
 - Support me via [Patreon](https://www.patreon.com/kandev).
