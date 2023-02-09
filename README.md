@@ -38,12 +38,12 @@ Thanks you very much!
 | OS/Platform     |Supported|
 | -------------   | ------ |
 | Android         |&#x2611;|
-| Ios             |&#x2610;|
+| Ios             |&#x2611;|
 | Window          |&#x2611;|
-| Mac             |&#x2610;|
+| Mac             |&#x2611;|
 | Linux           |&#x2610;|
 | HTML5           |&#x2611;|
-| Nintendo Switch |&#x2610;|
+| Nintendo Switch |&#x2611;|
 
 
 ## Burn Shader
@@ -83,12 +83,12 @@ Thanks you very much!
 | OS/Platform     |Supported|
 | -------------   | ------ |
 | Android         |&#x2611;|
-| Ios             |&#x2610;|
+| Ios             |&#x2611;|
 | Window          |&#x2611;|
-| Mac             |&#x2610;|
+| Mac             |&#x2611;|
 | Linux           |&#x2610;|
 | HTML5           |&#x2612;|
-| Nintendo Switch |&#x2610;|
+| Nintendo Switch |&#x2611;|
 
 ## CRT Shader
 
@@ -105,12 +105,12 @@ Thanks you very much!
 | OS/Platform     |Supported|
 | -------------   | ------ |
 | Android         |&#x2611;|
-| Ios             |&#x2610;|
+| Ios             |&#x2611;|
 | Window          |&#x2611;|
-| Mac             |&#x2610;|
+| Mac             |&#x2611;|
 | Linux           |&#x2610;|
 | HTML5           |&#x2612;|
-| Nintendo Switch |&#x2610;|
+| Nintendo Switch |&#x2611;|
 
 Ref: https://godotshaders.com/shader/vhs-and-crt-monitor-effect/;
 
