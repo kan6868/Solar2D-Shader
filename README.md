@@ -115,6 +115,5 @@ Thanks you very much!
 Ref: https://godotshaders.com/shader/vhs-and-crt-monitor-effect/;
 
 ## Sponsor this project
-- Support me via [Patreon](https://www.patreon.com/kandev).
 - Gift me a coffee cup: [Kofi](https://www.ko-fi.com/kandev)
 
